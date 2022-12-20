@@ -13,13 +13,12 @@ const Hero = (props: Props) => {
   return (
     <div className='h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden'>
       <BackgroundCircles />
-      <Image
+      <img
         width={128}
         height={128}
         src='/me-animated.png'
         className='relative rounded-full mx-auto object-cover'
         alt='me-animated'
-        priority
       />
       <div className='z-20'>
         <h2 className='text-sm uppercase text-gray-500 pb-2 tracking-[15px]'>
