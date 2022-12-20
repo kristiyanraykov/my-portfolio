@@ -19,6 +19,7 @@ const Hero = (props: Props) => {
         src='/me-animated.png'
         className='relative rounded-full mx-auto object-cover'
         alt='me-animated'
+        priority
       />
       <div className='z-20'>
         <h2 className='text-sm uppercase text-gray-500 pb-2 tracking-[15px]'>
