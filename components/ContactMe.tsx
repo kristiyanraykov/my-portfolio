@@ -1,5 +1,7 @@
 import { PhoneIcon, MapPinIcon, EnvelopeIcon } from '@heroicons/react/24/solid';
 import { useForm, SubmitHandler } from 'react-hook-form';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 type Inputs = {
   name: string;
@@ -12,7 +14,18 @@ type Props = {};
 const ContactMe = (props: Props) => {
   const { register, handleSubmit } = useForm<Inputs>();
 
-  const onSubmit: SubmitHandler<Inputs> = (formData) => console.log(formData);
+  const onSubmit: SubmitHandler<Inputs> = (formData) => {
+    emailjs
+      .send('service_jer25j4', 'contact_form', formData, '3uWwrF-_NDIvKOVt3')
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
 
   return (
     <div className='h-screen relative flex flex-col text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center'>

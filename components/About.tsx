@@ -41,12 +41,7 @@ const About = (props: Props) => {
           background
         </h4>
         <p className='text-base'>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat ullam
-          mollitia quis doloremque aspernatur vitae culpa earum consectetur
-          debitis, error reprehenderit similique dolorum asperiores sint alias,
-          aliquid minus soluta inventore corporis excepturi ipsa rem tempore!
-          Est quas velit nobis, qui quasi esse, aspernatur harum natus veniam
-          consectetur odit, vitae reprehenderit?
+        I currently work as an Account Manager for business clients in Bulgaria&apos;s industry-leading communications services provider. Although i&apos;ve been involved with telecommunictions ever since i graduated from school, i&apos;ve always had a passion for computers and programming. For the last 3 years most of my free time has been occupied with learning to code and so i have decided it&apos;s time to make a career out of what i love.
         </p>
       </div>
     </motion.div>

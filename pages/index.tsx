@@ -1,4 +1,6 @@
 import Head from 'next/head';
+import Image from 'next/image';
+import Link from 'next/link';
 import About from '../components/About';
 import ContactMe from '../components/ContactMe';
 import Header from '../components/Header';
@@ -34,6 +36,13 @@ export default function Home() {
         <section id='contact' className='snap-start'>
           <ContactMe />
         </section>
+        <footer className='sticky bottom-5 w-full cursor-pointer'>
+          <div className='flex justify-end mr-10 text-[#F7AB0A]/40'>
+            <Link href='#hero'>
+              <span>Back to top</span>
+            </Link>
+          </div>
+        </footer>
       </div>
     </>
   );
