@@ -16,7 +16,7 @@ const Hero = (props: Props) => {
       <Image
         width={128}
         height={128}
-        src='/me-animated.PNG'
+        src='/me-animated.png'
         className='relative rounded-full mx-auto object-cover'
         alt='me-animated'
         priority
