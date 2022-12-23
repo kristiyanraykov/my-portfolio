@@ -20,14 +20,15 @@ const Project = (props: Props) => {
       transition={{ duration: 1.5 }}
       className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-[70vh]'
     >
-      <motion.img
+      {/* <motion.img
         initial={{ y: -300, opacity: 0 }}
         transition={{ duration: 1.2 }}
         whileInView={{ y: 0, opacity: 1 }}
-        viewport={{ once: true }}
+        viewport={{  }}
         src={projectImage}
-        className='w-128 h-64 transform-none border-8 border-gray-400/20 rounded-md'
-      />
+        className='w-96 h-72 transform-none border-8 border-gray-400/20 rounded-md'
+      /> */}
+      <Image src={projectImage} className='transform-none border-8 border-gray-400/20 rounded-md' alt='title' width={500} height={300}/>
       <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
         <Link href={link} target='_blank'>
           <h4 className='text-4xl font-semibold text-center'>
