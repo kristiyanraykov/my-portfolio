@@ -19,7 +19,7 @@ const Skill = ({ directionLeft, src }: Props) => {
           opacity: 1,
           x: 0,
         }}
-        className='rounded-full border border-gray-500 w-24 h-24 xl:h-32 xl:w-32 filter group-hover:grayscale transition duration-300 ease-in-out'
+        className='rounded-full border border-gray-500 w-16 h-16 md:h-24 md:w-24 filter group-hover:grayscale transition duration-300 ease-in-out'
         src={src}
       />
     </div>

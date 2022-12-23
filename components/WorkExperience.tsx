@@ -6,7 +6,7 @@ import React from 'react';
 type Props = {};
 
 const WorkExperience = (props: Props) => {
-  const scrollRef = useHorizontalScroll();
+  // const scrollRef = useHorizontalScroll();
 
   return (
     <motion.div
@@ -19,8 +19,8 @@ const WorkExperience = (props: Props) => {
         Experience
       </h3>
       <div
-        ref={scrollRef}
-        className='w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80 whitespace-nowrap relative'
+        // ref={scrollRef}
+        className='w-full h-[70%] xl:h-[60%] flex space-x-5 overflow-y-hidden overflow-x-scroll p-8 snap-x snap-mandatory scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80 whitespace-nowrap relative'
       >
         <ExperienceCard
           employer='Vivacom'
