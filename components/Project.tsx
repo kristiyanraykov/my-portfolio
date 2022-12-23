@@ -9,9 +9,10 @@ type Props = {
   information: string;
   stackIcons: string[];
   link: string;
+  gitHubLink: string;
 };
 const Project = (props: Props) => {
-  const { title, description, information, stackIcons, projectImage, link } = props;
+  const { title, description, information, stackIcons, projectImage, link, gitHubLink } = props;
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -33,6 +34,9 @@ const Project = (props: Props) => {
             <span className='underline decoration-[#F7AB0A]/50'>{title}</span> -{' '}
             {description}
           </h4>
+        </Link>
+        <Link href={gitHubLink}>
+          <span className='underline flex justify-center text-[#F7AB0A]/50'>GitHub Link</span>
         </Link>
         <div className='flex items-center space-x-2 justify-center'>
           {stackIcons.map((stackIcon, index) => (

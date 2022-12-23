@@ -26,11 +26,13 @@ const Header = (props: Props) => {
           url='https://bg.linkedin.com/in/kristiyan-raykov-1b363417b'
           fgColor='gray'
           bgColor='transparent'
+          target='_blank'
         />
         <SocialIcon
           url='https://www.github.com/kristiyanraykov'
           fgColor='gray'
           bgColor='transparent'
+          target='_blank'
         />
       </motion.div>
 

@@ -21,6 +21,7 @@ const Projects = (props: Props) => {
           information='I built this app with Udemy tutorial by Neil Cummings. I learned a lot about advanced React concepts, improved my Redux knowledge a lot. By that time firebase was the only backend i felt comfortable using, so this was the perfect course to level up my developing skills.'
           stackIcons={['/react.png', '/firebase.webp', '/redux.webp']}
           link='https://revents-personalproject.firebaseapp.com/'
+          gitHubLink='https://github.com/kristiyanraykov/revents'
         />
         <Project
           projectImage='/prime-clothing.png'
@@ -34,6 +35,7 @@ const Projects = (props: Props) => {
             '/typescript.png',
           ]}
           link='https://prime-clothing.netlify.app'
+          gitHubLink='https://github.com/kristiyanraykov/prime-clothing'
         />
         <Project
           projectImage='/jobify.jpg'
@@ -47,6 +49,7 @@ const Projects = (props: Props) => {
             '/typescript.png',
           ]}
           link='https://jobify-cq7e.onrender.com/'
+          gitHubLink='https://github.com/kristiyanraykov/jobify'
         />
       </div>
 
