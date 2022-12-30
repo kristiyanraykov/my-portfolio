@@ -32,10 +32,10 @@ const About = (props: Props) => {
           duration: 1,
         }}
         src='/me.jpeg'
-        className='-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[300px] xl:h-[400px]'
+        className='-mb-20 md:mb-0 flex-shrink-0 w-40 h-40 rounded-full object-cover md:rounded-lg md:w-64 md:h-64 xl:w-[300px] xl:h-[300px]'
       />
       <div className='space-y-10 px-0 md:px-10'>
-        <h4 className='text-4xl font-semibold '>
+        <h4 className='text-3xl md:text-4xl font-semibold '>
           Here is a{' '}
           <span className='underline decoration-[#F7AB0A]'>little</span>{' '}
           background

@@ -7,7 +7,7 @@ const Skills = (props: Props) => {
       <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl'>
         Skills
       </h3>
-      <div className='grid grid-cols-4 gap-5'>
+      <div className='grid grid-cols-3 md:grid-cols-4 gap-3 md:gap-5 items-center'>
         <Skill src='/react.png' />
         <Skill src='/nextjs.png' />
         <Skill src='/js.png' />

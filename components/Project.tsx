@@ -31,13 +31,13 @@ const Project = (props: Props) => {
       <Image src={projectImage} className='transform-none border-8 border-gray-400/20 rounded-md' alt='title' width={260} height={180}/>
       <div className='px-0 md:px-10 max-w-6xl'>
         <Link href={link} target='_blank'>
-          <h4 className='text-2xl font-semibold text-center'>
+          <h4 className='text-lg md:text-2xl font-semibold text-center'>
             <span className='underline decoration-[#F7AB0A]/50'>{title}</span> -{' '}
             {description}
           </h4>
         </Link>
         <Link href={gitHubLink}>
-          <span className='underline flex justify-center text-base text-[#F7AB0A]/50'>GitHub Link</span>
+          <span className='underline flex justify-center text-sm md:text-base text-[#F7AB0A]/50'>GitHub Link</span>
         </Link>
         <div className='flex items-center justify-center mt-5'>
           {stackIcons.map((stackIcon, index) => (
@@ -50,7 +50,7 @@ const Project = (props: Props) => {
             />
           ))}
         </div>
-        <p className='text-md text-center md:text-left mt-5'>{information}</p>
+        <p className='text-sm md:text-md text-center md:text-left mt-5'>{information}</p>
       </div>
     </motion.div>
   );

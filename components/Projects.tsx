@@ -12,7 +12,7 @@ const Projects = (props: Props) => {
       </h3>
       <div
         // ref={scrollRef}
-        className='relative w-full flex overflow-x-scroll snap-x snap-mandatory overflow-y-hidden z-20 scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80'
+        className='relative w-full flex overflow-x-scroll snap-x snap-center overflow-y-hidden z-20 scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80'
       >
         <Project
           projectImage='/revents.png'

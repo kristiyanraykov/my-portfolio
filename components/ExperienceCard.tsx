@@ -31,7 +31,7 @@ const ExperienceCard = (props: Props) => {
       <div className='px-0 xl:px-10 max-w-full max-h-full text-center'>
         <h4 className='text-2xl font-light'>{position}</h4>
         <p className='font-bold text-xl mt-1'>{employer}</p>
-        <p className='uppercase py-5 text-gray-300'>
+        <p className='uppercase py-5 text-gray-300 flex flex-col md:block'>
           <span className='text-[#F7AB0A]/40'>Started work:</span> {started} / <span className='text-[#F7AB0A]/40'>Ended:</span> {ended}
         </p>
         {/* <ul className='list-disc space-y-4 ml-5 text-lg'>
@@ -39,7 +39,7 @@ const ExperienceCard = (props: Props) => {
             <li key={index}>{responsibility}</li>
           ))}
         </ul> */}
-        <p className='text-base text-center whitespace-normal h-36'>
+        <p className='text-sm md:text-base text-center whitespace-normal h-36'>
           {workInfo}
         </p>
       </div>
